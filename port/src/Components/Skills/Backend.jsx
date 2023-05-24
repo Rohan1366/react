@@ -48,20 +48,20 @@ const Backend = () => {
                         </div>
                     </div>
 
-                    <div className="skills_data">
-                        <i class='bx bx-badge-check'></i>
-
-                        <div>
-                            <h3 className="skills_name">Typescript</h3>
-                            <span className="skills_level">Basic</span>
-                        </div>
-                    </div>
-
+                   
                     <div className="skills_data">
                         <i class='bx bx-badge-check'></i>
 
                         <div>
                             <h3 className="skills_name">Next JS</h3>
+                            <span className="skills_level">Basic</span>
+                        </div>
+                    </div>
+                    <div className="skills_data">
+                        <i class='bx bx-badge-check'></i>
+
+                        <div>
+                            <h3 className="skills_name">ANT Design</h3>
                             <span className="skills_level">Basic</span>
                         </div>
                     </div>

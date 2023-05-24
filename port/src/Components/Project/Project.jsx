@@ -26,18 +26,18 @@ import fc4 from '../../Assets/fc4.png';
 import fc5 from '../../Assets/fc5.png';
 import fc6 from '../../Assets/fc6.png';
 
-import vi1 from '../../Assets/vi1.png';
-import vi2 from '../../Assets/vi2.png';
-import vi3 from '../../Assets/vi3.png';
-import vi4 from '../../Assets/vi4.png';
-import vi5 from '../../Assets/vi5.png';
-import vi6 from '../../Assets/vi6.png';
+import m1 from '../../Assets/m1.png';
+import m2 from '../../Assets/m2.png';
+import m3 from '../../Assets/m3.png';
+import m4 from '../../Assets/m4.png';
+import m5 from '../../Assets/m5.png';
+import m6 from '../../Assets/m6.png';
 import './Project.css';
 
 const ecArr = [ec1, ec2, ec3, ec4, ec5, ec6,ec7,ec8];
 const skArr = [sk1, sk2, sk3, sk4, sk5, sk6];
 const fcArr = [fc1, fc2, fc3, fc4, fc5, fc6];
-const viArr = [vi1, vi2, vi3, vi4, vi5, vi6];
+const mArr = [m1, m2, m3, m4, m5, m6];
 
 const Project = () => {
 
@@ -61,8 +61,8 @@ const Project = () => {
             <p className="tech_stack">Tech Stack <span>- React, Node JS, Express, MongoDB, Braintree, Bootstrap, CSS</span></p>
 
             <div className="project_item-btndiv">
-              <a href="https://github.com/aljithkj02/pixhub-client" target='_blank' rel="noreferrer" > <button>Github</button> </a>
-              <a href="https://pix-hub.netlify.app/" target='_blank' rel="noreferrer" > <button>Demo <i className="bx bx-right-arrow-alt "></i></button></a>
+              <a href="https://github.com/Rohan1366/ecommerce" target='_blank' rel="noreferrer" > <button>Github</button> </a>
+              <a href="https://inquisitive-plum-vest.cyclic.app/" target='_blank' rel="noreferrer" > <button>Demo <i className="bx bx-right-arrow-alt "></i></button></a>
             </div>
           </div>
         </div>
@@ -70,13 +70,13 @@ const Project = () => {
         <div className="project_item">
           <div className="project_img-div">
             {/* <img className src={fc} id="fcImg" alt="Project Img"/> */}
-            <Image4 imgs={viArr} />
+            <Image4 imgs={mArr} />
           </div>
 
           <div>
-            <h3>Moviex</h3>
-            <p>Moviex is a Movie app. It allows users to share Movies, Search Movies, Sort Movies, Watch Movies and engage with content. Moviex is accessible on various devices and It was responsive.</p>
-            <p className="tech_stack">Tech Stack <span>- React, Redux , Bootstrap , TMDB API</span></p>
+            <h3>Movix</h3>
+            <p>Movix is a Movie app. It allows users to share Movies, Search Movies, Sort Movies, Watch Movies and engage with content. Moviex is accessible on various devices and It was responsive.</p>
+            <p className="tech_stack">Tech Stack <span>- React, Redux , Bootstrap , TMDB API, Css</span></p>
 
             <div className="project_item-btndiv">
               <a href="https://github.com/Rohan1366/Moviex" target='_blank' rel="noreferrer" > <button>Github</button> </a>
