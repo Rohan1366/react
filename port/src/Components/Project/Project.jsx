@@ -80,7 +80,7 @@ const Project = () => {
 
             <div className="project_item-btndiv">
               <a href="https://github.com/Rohan1366/Moviex" target='_blank' rel="noreferrer" > <button>Github</button> </a>
-              <a href="https://visualize-ai.netlify.app/" target='_blank' rel="noreferrer" > <button>Demo <i className="bx bx-right-arrow-alt "></i></button></a>
+              <a href="https://movix-ecru.vercel.app/" target='_blank' rel="noreferrer" > <button>Demo <i className="bx bx-right-arrow-alt "></i></button></a>
             </div>
           </div>
         </div>
