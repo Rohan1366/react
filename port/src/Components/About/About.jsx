@@ -1,5 +1,6 @@
 import React from 'react';
-import resume from '../../Assets/Aljith-KJ-Resume.pdf';
+import resume from '../../Assets/Rohan-Ghadge-Resume.pdf'
+
 import AboutImg from '../../Assets/Rohan.jpg';
 import './About.css';
 import Info from './Info';
