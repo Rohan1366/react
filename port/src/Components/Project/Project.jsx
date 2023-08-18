@@ -3,7 +3,7 @@ import Image1 from './Image1.jsx';
 import Image2 from './Image2.jsx';
 import Image3 from './Image3.jsx';
 import Image4 from './Image4.jsx';
-
+import Image5 from './Image5.jsx';
 import { useState } from 'react';
 import sk1 from '../../Assets/sk1.png';
 import sk2 from '../../Assets/sk2.png';
@@ -32,13 +32,22 @@ import m3 from '../../Assets/m3.png';
 import m4 from '../../Assets/m4.png';
 import m5 from '../../Assets/m5.png';
 import m6 from '../../Assets/m6.png';
+
+import px1 from '../../Assets/px1.png';
+import px2 from '../../Assets/px2.png';
+import px3 from '../../Assets/px3.png';
+import px4 from '../../Assets/px4.png';
+import px5 from '../../Assets/px5.png';
+import px6 from '../../Assets/px6.png';
 import './Project.css';
+
+
 
 const ecArr = [ec1, ec2, ec3, ec4, ec5, ec6,ec7,ec8];
 const skArr = [sk1, sk2, sk3, sk4, sk5, sk6];
 const fcArr = [fc1, fc2, fc3, fc4, fc5, fc6];
 const mArr = [m1, m2, m3, m4, m5, m6];
-
+const pxArr = [px1, px2, px3, px4, px5, px6];
 const Project = () => {
 
 
@@ -48,6 +57,24 @@ const Project = () => {
       <span className="section_subtitle">works</span>
 
       <div className="project_container container">
+
+      <div className="project_item">
+          <div className="project_img-div">
+            {/* <img className src={fc} id="fcImg" alt="Project Img"/> */}
+            <Image5 imgs={pxArr} />
+          </div>
+
+          <div>
+            <h3>Pixhub</h3>
+            <p>Pixhub is a social media app. It allows users to share updates, connect with others, and engage with content. Pixhub is accessible on various devices and is designed with scalability and maintainability in mind.</p>
+            <p className="tech_stack">Tech Stack <span>- React, Node JS, Express, MongoDB, Chakra-UI</span></p>
+
+            <div className="project_item-btndiv">
+              <a href="https://github.com/Rohan1366/pixhub-frontend" target='_blank' rel="noreferrer" > <button>Github</button> </a>
+              <a href="https://pixhub-rg-2.netlify.app/" target='_blank' rel="noreferrer" > <button>Demo <i className="bx bx-right-arrow-alt "></i></button></a>
+            </div>
+          </div>
+        </div>
 
         <div className="project_item">
           <div className="project_img-div">

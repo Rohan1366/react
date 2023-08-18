@@ -18,7 +18,10 @@ const About = () => {
                     {/* <Info /> */}
 
                     <p className="about_description">
-                        An inspired team player, always curious about new problems and learning new things to deliver an out-of-the-box solution with complete ownership.
+                    Motivated and enthusiastic Full Stack Web Developer with a strong foundation in web development principles and 
+                    technologies.  Skilled in front-end and back-end development, with a passion 
+                    for creating dynamic and user-friendly web applications. 
+                    Excellent problem-solving abilities and a dedicated team player committed to delivering high-quality solutions.
                     </p>
 
                     <a download="" href={resume} className="button button-flex">Download Resume
